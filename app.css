@@ -1,3 +1,38 @@
+body {
+	display: grid;
+	place-content: center;
+}
+.message-form, .enc-form, .dec-form {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+}
+input {
+	margin: 2rem 0;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid gray;
+	transition: border-bottom ease 2s;
+}
+input:focus {
+	border-bottom: 2px solid #50C878;
+}
+button {
+	width: 10%;
+	padding: 0.5rem;
+	background-color: #00A572;
+	outline: none;
+	border: none;
+	color: whitesmoke;
+	font-size: 15px;
+	transition: all ease .5s;
+}
+button:hover {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+}
 .hide {
 	display: none;
 }
